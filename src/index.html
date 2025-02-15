@@ -1,0 +1,37 @@
+<!-- src/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desktop Widget</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="widget">
+        <div class="clock">
+            <p id="time">--:--</p>
+            <p id="date">Loading...</p>
+        </div>
+        <div class="stats">
+            <div class="stat">
+                <img src="assets/cpu.svg" alt="CPU">
+                <p><span id="cpu">0%</span> - CPU</p>
+            </div>
+            <div class="stat">
+                <img src="assets/ram.svg" alt="RAM">
+                <p><span id="ram">0%</span> - RAM</p>
+            </div>
+            <div class="stat">
+                <img src="assets/disk.svg" alt="Disk">
+                <p><span id="disk">0%</span> - Disk</p>
+            </div>
+            <div class="stat">
+                <img src="assets/network.svg" alt="Network">
+                <p><span id="net">0 KB/s</span> - Net</p>
+            </div>
+        </div>
+    </div>
+    <script src="renderer.js"></script>
+</body>
+</html>

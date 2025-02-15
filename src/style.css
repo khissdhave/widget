@@ -1,0 +1,55 @@
+/* src/style.css */
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  background: transparent;
+  user-select: none;
+  overflow: hidden;
+}
+
+.widget {
+  position: fixed;
+  left: 20px;
+  top: 20px;
+  width: 250px;
+  padding: 25px;
+  background: rgba(79, 79, 79, 0.7);
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.clock p {
+  margin: 5px 0;
+  font-size: 12px;
+}
+
+#time{
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.stats {
+  margin-top: 10px;
+}
+
+.stat {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.241);
+}
+
+.stat img {
+  width: 30px;
+  height: 30px;
+  /* filter: invert(1); */
+}
